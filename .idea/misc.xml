@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable-anydpi/ic_dropDown.xml" value="0.13873873873873874" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable-anydpi/ic_dropUp.xml" value="0.13873873873873874" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable-mdpi/ic_death_dark.xml" value="0.290625" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable/gradient.xml" value="0.25135135135135134" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable/gradient_background.xml" value="0.25135135135135134" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable/gradient_dark.xml" value="0.1885135135135135" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable/gradient_light.xml" value="0.13873873873873874" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable/ic_death.xml" value="0.290625" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable/ic_virus.xml" value="0.290625" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout-night/activity_main.xml" value="0.17335526315789473" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout-night/activity_regions_rv.xml" value="0.3560810810810811" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout-night/activity_rv_list_item.xml" value="0.1" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout-night/activity_splash_screen.xml" value="0.17335526315789473" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout-night/all_regions_stats.xml" value="0.23738738738738738" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout-night/rv_list_item.xml" value="0.23738738738738738" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout/activity_regions_rv.xml" value="0.264" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout/activity_rv_list_item.xml" value="0.17335526315789473" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout/activity_splash_screen.xml" value="0.17335526315789473" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout/all_regions_stats.xml" value="0.23738738738738738" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout/all_states_stats.xml" value="0.23738738738738738" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/layout/rv_list_item.xml" value="0.23738738738738738" />
+        <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18355263157894736" />
+        <entry key="..\:/App_Dev/Android_Studio/LGMVIP-Android/Task 1/Covid Tracker/app/src/main/res/drawable/gradient_dark.xml" value="0.18355263157894736" />
+        <entry key="..\:/App_Dev/Android_Studio/LGMVIP-Android/Task 1/Covid Tracker/app/src/main/res/layout-night/activity_main.xml" value="0.17335526315789473" />
+        <entry key="..\:/App_Dev/Android_Studio/LGMVIP-Android/Task 1/Covid Tracker/app/src/main/res/layout/activity_main.xml" value="0.17335526315789473" />
+        <entry key="..\:/App_Dev/Android_Studio/LGMVIP-Android/Task 1/Covid Tracker/app/src/main/res/layout/activity_regions_rv.xml" value="0.17335526315789473" />
+        <entry key="..\:/App_Dev/Android_Studio/LGMVIP-Android/Task 1/Covid Tracker/app/src/main/res/layout/activity_rv_list_item.xml" value="0.17335526315789473" />
+        <entry key="..\:/App_Dev/Android_Studio/LGMVIP-Android/Task 1/Covid Tracker/app/src/main/res/layout/activity_splash_screen.xml" value="0.17335526315789473" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

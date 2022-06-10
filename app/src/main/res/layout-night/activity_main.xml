@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/companyTag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#413250"
+        android:text="LetsGrowMore"
+        android:textAlignment="center"
+        android:textColor="#CA7901"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewWorldStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="World Wide Record"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rotatingLogo" />
+
+    <ImageView
+        android:id="@+id/imageWorldTotalCases"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageWorldTotalRecovered"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageWorldTotalRecovered"
+        app:srcCompat="@drawable/ic_virus" />
+
+    <ImageView
+        android:id="@+id/imageWorldTotalRecovered"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageWorldTotalDeaths"
+        app:layout_constraintStart_toEndOf="@+id/imageWorldTotalCases"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWorldStats"
+        app:srcCompat="@drawable/ic_recovered" />
+
+    <ImageView
+        android:id="@+id/imageWorldTotalDeaths"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageWorldTotalRecovered"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageWorldTotalRecovered"
+        app:srcCompat="@drawable/ic_death_dark" />
+
+    <TextView
+        android:id="@+id/textWorldTotalCases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textWorldTotalRecovered"
+        app:layout_constraintEnd_toEndOf="@+id/imageWorldTotalCases"
+        app:layout_constraintStart_toStartOf="@+id/imageWorldTotalCases"
+        app:layout_constraintTop_toTopOf="@+id/textWorldTotalRecovered" />
+
+    <TextView
+        android:id="@+id/textWorldTotalRecovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageWorldTotalRecovered"
+        app:layout_constraintStart_toStartOf="@+id/imageWorldTotalRecovered"
+        app:layout_constraintTop_toBottomOf="@+id/imageWorldTotalRecovered" />
+
+    <TextView
+        android:id="@+id/textWorldTotalDeaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textWorldTotalRecovered"
+        app:layout_constraintEnd_toEndOf="@+id/imageWorldTotalDeaths"
+        app:layout_constraintStart_toStartOf="@+id/imageWorldTotalDeaths"
+        app:layout_constraintTop_toTopOf="@+id/textWorldTotalRecovered" />
+
+    <TextView
+        android:id="@+id/textViewIndianStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Indian Record"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWorldTotalRecovered" />
+
+    <ImageView
+        android:id="@+id/imageIndianTotalCases"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageIndianTotalRecovered"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageIndianTotalRecovered"
+        app:srcCompat="@drawable/ic_virus" />
+
+    <ImageView
+        android:id="@+id/imageIndianTotalRecovered"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageIndianTotalDeaths"
+        app:layout_constraintStart_toEndOf="@+id/imageIndianTotalCases"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIndianStats"
+        app:srcCompat="@drawable/ic_recovered" />
+
+    <ImageView
+        android:id="@+id/imageIndianTotalDeaths"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageIndianTotalRecovered"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageIndianTotalRecovered"
+        app:srcCompat="@drawable/ic_death_dark" />
+
+    <TextView
+        android:id="@+id/textIndiaTotalCases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textIndiaTotalRecovered"
+        app:layout_constraintEnd_toEndOf="@+id/imageIndianTotalCases"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textIndiaTotalRecovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageIndianTotalRecovered"
+        app:layout_constraintStart_toStartOf="@+id/imageIndianTotalRecovered"
+        app:layout_constraintTop_toBottomOf="@+id/imageIndianTotalRecovered" />
+
+    <TextView
+        android:id="@+id/textIndiaTotalDeaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textIndiaTotalRecovered"
+        app:layout_constraintEnd_toEndOf="@+id/imageIndianTotalDeaths"
+        app:layout_constraintStart_toStartOf="@+id/imageIndianTotalDeaths" />
+
+    <ImageView
+        android:id="@+id/rotatingLogo"
+        android:layout_width="121dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/companyTag"
+        app:srcCompat="@drawable/virus_dark" />
+
+    <TextView
+        android:id="@+id/logoTextDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracker"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rotatingLogo"
+        app:layout_constraintEnd_toEndOf="@+id/rotatingLogo"
+        app:layout_constraintStart_toStartOf="@+id/rotatingLogo"
+        app:layout_constraintTop_toTopOf="@+id/rotatingLogo" />
+
+    <TextView
+        android:id="@+id/textGetData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Track your state and district"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textIndiaTotalRecovered" />
+
+    <Button
+        android:id="@+id/btnTrackMore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#AB5ABA"
+        android:elevation="0dp"
+        android:text="Track more"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textGetData" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTrackMore"
+        app:srcCompat="@drawable/who_emblem" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/imageView2">
+
+        <TextView
+            android:id="@+id/whoLinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more info visit "
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/whoLink"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="who.int"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#536DFE"
+            android:textSize="16sp"
+            app:iconPadding="0dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/whoLinkText"
+            app:layout_constraintStart_toEndOf="@+id/whoLinkText" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="168dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

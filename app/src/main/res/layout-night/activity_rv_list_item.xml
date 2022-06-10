@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp"
+    android:outlineAmbientShadowColor="@color/purple_200"
+    app:cardCornerRadius="5dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_dark"
+        android:elevation="5dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/stateName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/totalCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Cases"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/totalRecovery"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/totalRecovery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Recovered"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/totalDeaths"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintStart_toEndOf="@+id/totalCases"
+            app:layout_constraintTop_toBottomOf="@+id/districtName" />
+
+        <TextView
+            android:id="@+id/totalDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Deaths"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/totalRecovery"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textTotalCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#FD0444A5"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textTotalRecovery"
+            app:layout_constraintEnd_toEndOf="@+id/totalCases"
+            app:layout_constraintStart_toStartOf="@+id/totalCases" />
+
+        <TextView
+            android:id="@+id/textTotalRecovery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            android:textColor="#1F5C03"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/totalRecovery"
+            app:layout_constraintStart_toStartOf="@+id/totalRecovery"
+            app:layout_constraintTop_toBottomOf="@+id/totalRecovery" />
+
+        <TextView
+            android:id="@+id/textTotalDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#EA1426"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textTotalRecovery"
+            app:layout_constraintEnd_toEndOf="@+id/totalDeaths"
+            app:layout_constraintStart_toStartOf="@+id/totalDeaths" />
+
+        <TextView
+            android:id="@+id/districtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="District"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/stateName"
+            app:layout_constraintStart_toStartOf="@+id/stateName"
+            app:layout_constraintTop_toBottomOf="@+id/stateName" />
+
+        <ImageButton
+            android:id="@+id/dropDown"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTotalRecovery"
+            app:srcCompat="@drawable/ic_drop_down"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/expandableLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dropDown"
+            tools:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/dropUp"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/ic_drop_up"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/totalActiveCases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Active"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/migratedOthers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Migrated others"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/dropUp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textActiveCases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#E86B0D"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/totalActiveCases"
+                app:layout_constraintStart_toStartOf="@+id/totalActiveCases"
+                app:layout_constraintTop_toBottomOf="@+id/totalActiveCases" />
+
+            <TextView
+                android:id="@+id/textMigratedOthers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#721283"
+                android:textStyle="bold"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textActiveCases"
+                app:layout_constraintEnd_toEndOf="@+id/migratedOthers"
+                app:layout_constraintStart_toStartOf="@+id/migratedOthers" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
