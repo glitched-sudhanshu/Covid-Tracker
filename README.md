@@ -1,2 +1,7 @@
 # Covid-Tracker
-An information gathering native android application which provides number of cases, deaths etc in India and world.o
+An information gathering native android application which provides number of cases, deaths etc in India and world. 
+User can also track the data of Indian districts.
+
+
+<img src="https://user-images.githubusercontent.com/68722462/173640386-2cba123d-14d5-4580-a8e6-25672b763a1c.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="170" height="350" />  <img src="https://user-images.githubusercontent.com/68722462/173640382-90a5aa18-696a-4023-a694-bc8fa85d924e.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="170" height="350" />  	   
+<img src="https://user-images.githubusercontent.com/68722462/173640391-76685a2c-3153-43e1-a116-765d2bf4857a.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="170" height="350" /><img src="https://user-images.githubusercontent.com/68722462/173640394-db01ee8f-07d6-4c27-9bb5-d3d29690a6f1.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="170" height="350" /> 
