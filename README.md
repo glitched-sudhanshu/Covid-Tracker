@@ -2,7 +2,7 @@
 An information gathering native android application which provides number of cases, deaths etc in India and world. 
 User can also track the data of Indian districts.
 
-Splash screen
+Splash screen \n\n
 <img src="https://user-images.githubusercontent.com/68722462/173640386-2cba123d-14d5-4580-a8e6-25672b763a1c.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="170" height="350" />  
 
 Home page
