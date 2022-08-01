@@ -9,9 +9,8 @@
     <TextView
         android:id="@+id/companyTag"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:background="#B8E3DF"
-        android:text="LetsGrowMore"
         android:textAlignment="center"
         android:textColor="#D84315"
         android:textSize="24sp"

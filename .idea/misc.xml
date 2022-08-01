@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/App_Dev/Android_Studio/Covid Tracker/app/src/main/res/layout-night/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/App_Dev/Android_Studio/Covid Tracker/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable-anydpi/ic_dropDown.xml" value="0.13873873873873874" />
         <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable-anydpi/ic_dropUp.xml" value="0.13873873873873874" />
         <entry key="..\:/App_Dev/Android_Studio/CovidTracker/app/src/main/res/drawable-mdpi/ic_death_dark.xml" value="0.290625" />
